@@ -1,0 +1,15 @@
+{
+    "name": "qa-automation-portfolio",
+    "version": "1.0.0",
+    "description": "Portfolio de QA Automation - tests E2E con Playwright y tests de API, con base de QA manual",
+    "scripts": {
+          "test": "playwright test",
+          "test:ui": "playwright test tests/ui",
+          "test:api": "playwright test tests/api",
+          "test:headed": "playwright test --headed",
+          "report": "playwright show-report"
+    },
+    "devDependencies": {
+          "@playwright/test": "^1.48.0"
+    }
+}
