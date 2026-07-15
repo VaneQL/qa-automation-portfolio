@@ -21,8 +21,7 @@ with:
 node-version: 20
 
 - name: Instalar dependencias
-run: npm ci
-
+run: npm install
 - name: Instalar navegadores de Playwright (con dependencias del sistema)
 run: npx playwright install --with-deps
 
